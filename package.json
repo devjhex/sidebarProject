@@ -1,0 +1,12 @@
+{
+  "name": "sidebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

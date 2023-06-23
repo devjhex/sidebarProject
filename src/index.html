@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="https://kit.fontawesome.com/7666dfc9fb.js" crossorigin="anonymous"></script>
+    <title>SideBar</title>
+</head>
+<body>
+    <header class="text-center flex items-center justify-between max-w-[300px] sm:max-w-[500px] md:max-w-2xl lg:max-w-6xl mx-auto mt-4">
+        <div class="">
+            <img class="w-40" src="../Old_Nike_logo.jpg" alt="logo">
+        </div>
+
+        <div>
+            <span id="open" class="fa-solid fa-bars text-3xl"></span>
+        </div>
+    </header>
+
+    <aside id="sidebar" class="-translate-x-full absolute top-0 left-0 bg-black text-white h-full w-full transition-[transform]">
+        <div class="w-5/6 mx-auto flex items-center justify-between">
+          <div>
+            <img class="w-40" src="../download.png" alt="nike-logo">
+          </div>
+          <span id="close" class="fa-solid fa-xmark text-2xl hover:text-red-600"></span>
+        </div>
+        <ul class="bg-black w-5/6 mx-auto text-3xl mt-4 tranlate">
+            <li class="pl-4 border-2 border-white rounded mb-4 hover:text-red-600 hover:border-red-600">Home</li>
+            <li class="pl-4 border-2 border-white rounded mb-4 hover:text-red-600 hover:border-red-600">Socials</li>
+            <li class="pl-4 border-2 border-white rounded mb-4 hover:text-red-600 hover:border-red-600">Projects</li>
+            <li class="pl-4 border-2 border-white rounded mb-4 hover:text-red-600 hover:border-red-600">Blogs</li>
+            <li class="pl-4 border-2 border-white rounded mb-4 hover:text-red-600 hover:border-red-600">Articles</li>
+        </ul>
+    </aside>
+
+    <script src="./app.js"></script>
+</body>
+</html>
